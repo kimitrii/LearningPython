@@ -9,10 +9,10 @@ print('First', istr)
 
 
 # If interger
-astr = '123'
+astr = input("type a number")
 try:
     istr = int(astr)
 except:
-    istr = -1
+    istr = "it isn't a number"
 
 print ('Second', istr)

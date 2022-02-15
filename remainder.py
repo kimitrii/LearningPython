@@ -14,3 +14,9 @@ type(i)
 
 wellfcome = input("enter your name: ")
 print("hello",wellfcome)
+
+
+fhours = input("what a clock right now? ")
+xhours = input("what a second right now? ")
+somatudo = float(fhours) + float(xhours)
+print(somatudo)
