@@ -37,4 +37,18 @@ print(stuff[1])
 print(len(stuff))
 print(max(stuff))
 print(min(stuff))
-print(sum(stuff))
+
+
+#"split" break the strings into parts and produces a list with echt element from the string
+abc = "eu sei tudo sobre tudo"
+finalAbc = abc.split()
+print(finalAbc)
+print(finalAbc[1])
+
+for w in finalAbc:
+    print('a palavra é',w)
+
+#"split" can be used to separate values base on a point
+abc2 = "eu/sei/que/tudo/é"
+abc2Final = abc2.split('/')
+print(abc2Final)
